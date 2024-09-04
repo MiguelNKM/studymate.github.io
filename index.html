@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyMate</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>StudyMate</h1>
+    <nav class="navbar" id="navbar">
+      <ul>
+        <li><a href=" index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Search for Study Materials</h2>
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Search ...">
+      <button id="search-btn">Search</button>
+    </div>
+
+    <div id="search-results" class="results-container"></div>
+
+
+    <div class="search-container">
+      <h2>Library</h2>
+      <input type="text" id="library-search" placeholder="Search Library...">
+      <button id="library-search-btn">Search</button>
+    </div>
+
+    <div id="resource-list" class="results-container"></div>
+  </main>
+
+  <script src="js/app.js"></script>
+  <script src="service-worker.js"></script>
+</body>
+
+</html>
